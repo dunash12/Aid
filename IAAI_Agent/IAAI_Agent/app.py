@@ -405,3 +405,4 @@ st.success("Compliance dashboard generated successfully.")
 
 except Exception as e:
 st.error(f"An error occurred: {str(e)}")
+
