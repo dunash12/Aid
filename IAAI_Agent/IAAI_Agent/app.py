@@ -185,13 +185,24 @@ st.markdown(
         margin: 8px 0 18px 0;
         width: 100%;
     }
+div[data-testid="stMetric"] {
+background-color: #111827;
+border: 1px solid #1f2937;
+padding: 14px;
+border-radius: 16px;
+}
 
-    div[data-testid="stMetric"] {
-        background-color: #111827;
-        border: 1px solid #1f2937;
-        padding: 14px;
-        border-radius: 16px;
-    }
+div[data-testid="stMetric"] label {
+color: #ffffff !important;
+font-size: 15px !important;
+}
+
+div[data-testid="stMetricValue"] {
+color: #60a5fa !important;
+font-size: 32px !important;
+font-weight: 700 !important;
+}
+
     </style>
     """,
     unsafe_allow_html=True
